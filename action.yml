@@ -1,0 +1,17 @@
+# action.yml
+name: 'Count the number of files'
+description: 'Count the number of files in a path(input) using find and wc'
+
+inputs:
+  path:
+    description: 'path to the directory'
+    required: true
+    default: './'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+ 
+branding:
+  icon: 'code'
+  color: 'blue'
