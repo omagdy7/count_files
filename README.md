@@ -18,7 +18,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
     - name: test gh action
-      uses: omagdy7/count_files@v1
+      uses: omagdy7/count_files@v1.0
       with:
         path: "./"
 ```
